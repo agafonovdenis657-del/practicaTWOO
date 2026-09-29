@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: #faf9f9;
+  background: #ffffff;
   color: #333;
   line-height: 1.5;
   display: flex;
@@ -12,9 +12,8 @@ body {
 .page {
   width: 100%;
   max-width: 900px;
-  background: #f5f5f5;
+  background: #ffffff;
   padding: 30px 40px 50px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
 }
 
 /* шапка */
@@ -22,7 +21,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom:  30px;
 }
 
 .header__logo {
@@ -93,14 +92,14 @@ body {
 /* средний блок */
 .features {
   display: flex;
-  gap: 30px;
+  gap: 13px;
   margin-bottom: 60px;
 }
 
 .features__images {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 90px;
   flex-shrink: 0;
 }
 
