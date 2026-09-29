@@ -1,12 +1,237 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout by Example</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <div class="page">
+
+    <!-- шапка -->
+    <header class="header">
+      <div class="header__logo">
+        <span class="header__logo-circle"></span>
+        <span class="header__logo-bar"></span>
+      </div>
+      <nav class="header__nav">
+        <span class="header__nav-item"></span>
+        <span class="header__nav-item"></span>
+        <span class="header__nav-item"></span>
+        <span class="header__nav-item"></span>
+        <span class="header__nav-item"></span>
+      </nav>
+    </header>
+
+    <!-- верхний блок с текстом и кругом -->
+    <section class="hero">
+      <div class="hero__content">
+        <h1 class="hero__title">LOREM IPSUM</h1>
+        <p class="hero__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Praesent euismod tincidunt ante, ac lacinia nulla venenatis
+          at. Integer porta nec neque auctor scelerisque. Curabitur
+          sit amet tortor nec orci posuere scelerisque. Proin sit
+          amet eu massa vitae tincidunt. Nam euismod lacinia a sit
+          amet dapibus. Quisque porta magna, non
+          volutpat quis neque.
+        </p>
+      </div>
+      <div class="hero__circle"></div>
+    </section>
+
+    <!-- средний блок -->
+    <section class="features">
+      <div class="features__images">
+        <div class="features__image"></div>
+        <div class="features__image"></div>
+        <div class="features__image"></div>
+      </div>
+
+      <div class="features__list">
+        <article class="features__item">
+          <h2 class="features__title">LOREM IPSUM</h2>
+          <p class="features__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Praesent euismod tincidunt ante, ac lacinia
+            nulla venenatis at. Integer porta nec neque auctor
+            scelerisque. Curabitur sit amet tortor nec orci
+            posuere scelerisque. Proin sit amet eu massa vitae
+            tincidunt.
+          </p>
+        </article>
+        <article class="features__item">
+          <h2 class="features__title">LOREM IPSUM</h2>
+          <p class="features__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Praesent euismod tincidunt ante, ac lacinia
+            nulla venenatis at. Integer porta nec neque auctor
+            scelerisque. Curabitur sit amet tortor nec orci
+            posuere scelerisque. Proin sit amet eu massa vitae
+            tincidunt.
+          </p>
+        </article>
+        <article class="features__item">
+          <h2 class="features__title">LOREM IPSUM</h2>
+          <p class="features__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Praesent euismod tincidunt ante, ac lacinia
+            nulla venenatis at. Integer porta nec neque auctor
+            scelerisque. Curabitur sit amet tortor nec orci
+            posuere scelerisque. Proin sit amet eu massa vitae
+            tincidunt.
+          </p>
+        </article>
+      </div>
+
+      <div class="features__sidebar">
+        <article class="features__side-item">
+          <span class="features__marker"></span>
+          <div class="features__side-content">
+            <h3 class="features__side-title">LOREM IPSUM</h3>
+            <p class="features__side-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Praesent euismod tincidunt ante, ac lacinia
+              nulla venenatis at.
+            </p>
+          </div>
+        </article>
+        <article class="features__side-item">
+          <span class="features__marker"></span>
+          <div class="features__side-content">
+            <h3 class="features__side-title">LOREM IPSUM</h3>
+            <p class="features__side-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Praesent euismod tincidunt ante, ac lacinia
+
+
+nulla venenatis at.
+            </p>
+          </div>
+        </article>
+        <article class="features__side-item">
+          <span class="features__marker"></span>
+          <div class="features__side-content">
+            <h3 class="features__side-title">LOREM IPSUM</h3>
+            <p class="features__side-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Praesent euismod tincidunt ante, ac lacinia
+              nulla venenatis at.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- нижний блок -->
+    <section class="bottom">
+      <div class="bottom__col bottom__col--left">
+        <div class="bottom__logo">
+          <span class="bottom__logo-circle"></span>
+          <span class="bottom__logo-bar"></span>
+        </div>
+        <p class="bottom__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Praesent euismod tincidunt ante, ac lacinia nulla
+          venenatis at. Integer porta nec neque auctor
+          scelerisque.
+        </p>
+        <div class="bottom__cards">
+          <div class="bottom__card"></div>
+          <div class="bottom__card"></div>
+          <div class="bottom__card"></div>
+        </div>
+        <div class="bottom__notes">
+          <article class="bottom__note">
+            <h4 class="bottom__note-title">LOREM IPSUM</h4>
+            <p class="bottom__note-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </article>
+          <article class="bottom__note">
+            <h4 class="bottom__note-title">LOREM IPSUM</h4>
+            <p class="bottom__note-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </article>
+          <article class="bottom__note">
+            <h4 class="bottom__note-title">LOREM IPSUM</h4>
+            <p class="bottom__note-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </article>
+        </div>
+      </div>
+
+      <div class="bottom__col bottom__col--center">
+        <div class="bottom__nav">
+          <span class="bottom__nav-item"></span>
+          <span class="bottom__nav-item"></span>
+          <span class="bottom__nav-item"></span>
+          <span class="bottom__nav-item"></span>
+        </div>
+        <div class="bottom__circle"></div>
+        <div class="bottom__side-list">
+          <article class="bottom__side-item">
+            <span class="bottom__marker"></span>
+            <div>
+              <h4 class="bottom__side-title">LOREM IPSUM</h4>
+              <p class="bottom__side-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </article>
+          <article class="bottom__side-item">
+            <span class="bottom__marker"></span>
+            <div>
+              <h4 class="bottom__side-title">LOREM IPSUM</h4>
+              <p class="bottom__side-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </article>
+          <article class="bottom__side-item">
+            <span class="bottom__marker"></span>
+            <div>
+              <h4 class="bottom__side-title">LOREM IPSUM</h4>
+              <p class="bottom__side-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="bottom__col bottom__col--right">
+        <div class="bottom__logo">
+          <span class="bottom__logo-circle"></span>
+          <span class="bottom__logo-bar"></span>
+        </div>
+        <div class="bottom__nav">
+          <span class="bottom__nav-item"></span>
+          <span class="bottom__nav-item"></span>
+          <span class="bottom__nav-item"></span>
+          <span class="bottom__nav-item"></span>
+        </div>
+        <h3 class="bottom__right-title">LOREM IPSUM</h3>
+        <p class="bottom__right-text">
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Praesent euismod tincidunt ante, ac lacinia nulla
+          venenatis at. Integer porta nec neque auctor
+          scelerisque. Curabitur sit amet tortor nec orci
+          posuere scelerisque.
+        </p>
+        <div class="bottom__circle bottom__circle--small"></div>
+        <div class="bottom__bars">
+          <div class="bottom__bar"></div>
+          <div class="bottom__bar"></div>
+        </div>
+      </div>
+    </section>
+
+  </div>
 </body>
 </html>
